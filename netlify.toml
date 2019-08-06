@@ -14,7 +14,7 @@ for = "/fonts/*.woff2"
 for = "/fonts/*.ttf"
 [headers.values]
   Access-Control-Allow-Origin = "*"
-  Content-Type = "application/font-ttf'
+  Content-Type = "application/font-ttf"
 
 [[headers]]
 for = "/fonts/*.eot"
