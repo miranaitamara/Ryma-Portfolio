@@ -1,23 +1,35 @@
-/fonts/*.woff
+[[headers]]
+for = "/fonts/*.woff"
+[headers.values]
   Access-Control-Allow-Origin: *
   Content-Type: application/font-woff
 
-/fonts/*.woff2
+[[headers]]
+for = "/fonts/*.woff2"
+[headers.values]
   Access-Control-Allow-Origin: *
   Content-Type: application/font-woff2
 
-/fonts/*.ttf
+[[headers]]
+for = "/fonts/*.ttf"
+[headers.values]
   Access-Control-Allow-Origin: *
   Content-Type: application/font-ttf
 
-/fonts/*.eot
+[[headers]]
+for = "/fonts/*.eot"
+[headers.values]
   Access-Control-Allow-Origin: *
   Content-Type: application/font-eot
 
-/fonts/*.svg
+[[headers]]
+for = "/fonts/*.svg"
+[headers.values]
   Access-Control-Allow-Origin: *
   Content-Type: application/font-svg
 
-/fonts/*.otf
+[[headers]]
+for = "/fonts/*.otf"
+[headers.values]
   Access-Control-Allow-Origin: *
   Content-Type: application/font-otf
