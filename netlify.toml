@@ -1,35 +1,35 @@
 [[headers]]
 for = "/fonts/*.woff"
 [headers.values]
-  Access-Control-Allow-Origin: *
-  Content-Type: application/font-woff
+  Access-Control-Allow-Origin = "*"
+  Content-Type = "application/font-woff"
 
 [[headers]]
 for = "/fonts/*.woff2"
 [headers.values]
-  Access-Control-Allow-Origin: *
-  Content-Type: application/font-woff2
+  Access-Control-Allow-Origin = "*"
+  Content-Type = "application/font-woff2"
 
 [[headers]]
 for = "/fonts/*.ttf"
 [headers.values]
-  Access-Control-Allow-Origin: *
-  Content-Type: application/font-ttf
+  Access-Control-Allow-Origin = "*"
+  Content-Type = "application/font-ttf'
 
 [[headers]]
 for = "/fonts/*.eot"
 [headers.values]
-  Access-Control-Allow-Origin: *
-  Content-Type: application/font-eot
+  Access-Control-Allow-Origin = "*"
+  Content-Type = "application/font-eot"
 
 [[headers]]
 for = "/fonts/*.svg"
 [headers.values]
-  Access-Control-Allow-Origin: *
-  Content-Type: application/font-svg
+  Access-Control-Allow-Origin = "*"
+  Content-Type = "application/font-svg"
 
 [[headers]]
 for = "/fonts/*.otf"
 [headers.values]
-  Access-Control-Allow-Origin: *
-  Content-Type: application/font-otf
+  Access-Control-Allow-Origin = "*"
+  Content-Type = "application/font-otf"
