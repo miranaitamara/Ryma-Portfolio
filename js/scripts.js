@@ -201,7 +201,7 @@ function initBionick() {
     });
     var i = 1;
     $(document.body).on("appear", ".stats", function (a) {
-        if (1 === i) k(2600);
+        if (1 === i) k(1000);
         i++;
     });
     function j(a, b, c, d) {
