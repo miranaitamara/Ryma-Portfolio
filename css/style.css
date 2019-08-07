@@ -1457,20 +1457,23 @@ header {
 
 .percent {
 	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
 	font-size: 21px;
-	line-height: 152px;
+	color: black;
+	font-weight: bold;
 	z-index: 2;
 }
 
-.percent:after {
+/* .percent:after {
 	content: '%';
 	margin-left: 0.1em;
 	font-size: .8em;
-}
+} */
 
 .drk-ch .percent {
 	color: #666;
-}
+} 
 
 .angular {
 	margin-top: 100px;
@@ -1478,16 +1481,6 @@ header {
 
 .angular .chart {
 	margin-top: 0;
-}
-
-.skills-description {
-	float: left;
-	width: 100%;
-	margin: 10px 0;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	color: #666;
-	font-size: 12px;
 }
 
 .skill-name {
