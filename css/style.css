@@ -2572,7 +2572,8 @@ source {
 }
 
 #contact-form input[type="text"],
-#contact-form textarea {
+#contact-form textarea,
+#contact-form input[type=email] {
 	color: #000;
 	font-size: 12px;
 	padding: 15px 0;
@@ -2588,7 +2589,7 @@ source {
 
 #contact-form input[type=text]:focus,
 #contact-form textarea:focus,
-input[type=email]:focus {
+#contact-form input[type=email]:focus {
 	color: #000;
 }
 

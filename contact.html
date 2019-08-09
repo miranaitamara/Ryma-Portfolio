@@ -114,9 +114,9 @@
                                         <div class="contact-info">
                                             <ul>
                                                 <li><a> <i class="fa fa-phone"></i> +84 938 319 219</a></li>
-                                                <li><a><i class="fa fa-motorcycle"></i> 512/23 Nguyen Chi Thanh Street,
-                                                        Ward 7, District 10, HCMC, Vietnam</a></li>
                                                 <li><a><i class="fa fa-envelope-o"></i> huynhtehoa@gmail.com</a></li>
+                                                <li><a style="padding-right: 0"><i class="fa fa-motorcycle"></i> 512/23 Nguyen Chi Thanh Street,
+                                                        Ward 7, District 10, HCMC, Vietnam</a></li>
                                             </ul>
                                         </div>
                                         <!-- contact form -->
@@ -125,12 +125,12 @@
                                             <form method="POST"
                                                 action="https://portfolio-python-backend.herokuapp.com/contact"
                                                 name="contactform" id="contactform">
-                                                <input name="name" type="text" id="name" class="inputForm2"
-                                                    onClick="this.select()" value="Name">
-                                                <input name="email" type="text" id="email" onClick="this.select()"
-                                                    value="E-mail">
-                                                <textarea name="comments" id="comments"
-                                                    onClick="this.select()">Message</textarea>
+                                                <input name="name" type="text" required id="name" class="inputForm2"
+                                                    onClick="this.select()" placeholder="Name">
+                                                <input name="email" type="email" required id="email"
+                                                    onClick="this.select()" placeholder="E-mail">
+                                                <textarea name="comments" required id="comments" onClick="this.select()"
+                                                    placeholder="Message"></textarea>
                                                 <input type="submit" class="send_message transition" id="submit"
                                                     value="Send Message" />
                                             </form>
