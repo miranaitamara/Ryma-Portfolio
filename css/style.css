@@ -1349,14 +1349,15 @@ header {
 }
 
 .price {
-	padding: 10px 15px;
-	max-width: 150px;
-	margin: 0 auto;
+	overflow: hidden;
+	display: inline-flex;
+	padding: 6px 10px;
 	font-size: 14px;
-	color: #fff;
+	color: #FFD600;
+	font-weight: 550;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
-	border: 2px solid #8F8F8F;
+	border: 2px solid #FFD600;
 	border-radius: 6px;
 	-webkit-transition: all 200ms linear;
 	-moz-transition: all 200ms linear;
@@ -1365,9 +1366,35 @@ header {
 	transition: all 200ms linear;
 }
 
+.price i {
+	font-size: 21px;
+}
+
+.price i, .price span {
+	padding: 0.3rem;
+	width: 100%;
+	display: block;
+	flex-shrink: 0;
+	margin: 0;
+}
+
 .price:hover {
 	background-color: #FFD600;
 	color: white;
+}
+
+.price i {
+	margin-left: -100%;
+	transition: margin-left 200ms ease-in-out;
+}
+
+.price:hover i {
+	margin-left: 0;
+}
+
+.btn.warning:focus {
+	box-shadow: 0 0 0 0.3rem #FFD600;
+	opacity: 0.7;
 }
 
 .services-holder {
@@ -1457,26 +1484,33 @@ header {
 
 .percent {
 	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
 	font-size: 21px;
-	color: black;
-	font-weight: bold;
+	line-height: 152px;
 	z-index: 2;
 }
 
-/* .percent:after {
+.percent:after {
 	content: '%';
 	margin-left: 0.1em;
 	font-size: .8em;
-} */
+}
 
 .drk-ch .percent {
 	color: #666;
-} 
+}
 
 .angular {
 	margin-top: 100px;
+}
+
+.skills-description {
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #666;
+	font-size: 12px;
 }
 
 .angular .chart {

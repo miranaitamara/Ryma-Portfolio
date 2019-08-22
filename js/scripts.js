@@ -235,9 +235,9 @@ function initBionick() {
                 scaleColor: "#9ACFB7",
                 size: "150",
                 lineWidth: "5",
-                // onStep: function (a, b, c) {
-                //     $(this.el).find(".percent").text(Math.round(c));
-                // }
+                onStep: function (a, b, c) {
+                    $(this.el).find(".percent").text(Math.round(c));
+                }
             });
         });
     });
